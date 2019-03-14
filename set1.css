@@ -15,7 +15,6 @@
 	padding: 1em 0 4em;
 	max-width: 1000px;
 	list-style: none;
-	text-align: center;
 }
 
 /* Common style */
@@ -29,7 +28,6 @@
 	max-height: 360px;
 	width: 48%;
 	background: #3085a3;
-	text-align: center;
 	cursor: pointer;
 }
 
