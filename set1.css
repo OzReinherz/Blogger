@@ -96,7 +96,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 25px;
 }
 [dir='rtl'] .slick-next
 {
@@ -1482,8 +1482,8 @@ figure.effect-chico:hover p {
     }
 
     .slider {
-    width: 50%;
-    margin: 200px;
+    width: 64%;
+    margin: 280px;
     margin-top: -430px;
     z-index: 999999;
 
