@@ -1482,8 +1482,10 @@ figure.effect-chico:hover p {
     }
 
     .slider {
-        width: 70%;
-        margin: 100px;
+    width: 70%;
+    margin: 200px;
+    margin-top: -300px;
+    z-index: 999999;
     }
 
     .slick-slide {
