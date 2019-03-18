@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+
+
+.anime-container {
+  width: 375px;
+  height: 650px;
+  background-color: rgb(7, 2, 29);
+  border-radius: 4px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+
+.anime-img {
+  width: 100%;
+  height: 450px;
+  background: url("http://media.idownloadblog.com/wp-content/uploads/2014/12/interstellar-wide-space-film-movie-art-9-wallpaper.jpg");
+  /*background-size: contain;*/
+  background-size: cover;
+  z-index: 111 !important;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, black), color-stop(0.35, black), color-stop(0.5, black), color-stop(0.65, black), color-stop(0.85, rgba(0, 0, 0, 0.6)), color-stop(1, transparent));
+  position: relative;
+}
+
+
+/* TYPOGRAPHY STARTS */
+/* Fonts */
+
+.title_anime_h1 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #e7e7e7;
+  margin: 0px;
+}
+
+.title_summary {
+  font-size: 12px;
+  font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  color: #e7e7e7;
+  margin: 0px;
+}
+
+.anime-gen {
+  margin: 0px;
+  padding: 0px;
+}
+.anime-gen li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #818181;
+  width: auto;
+  display: block;
+  float: left;
+  margin-right: 6px;
+  font-weight: 600;
+}
+
+
+.anime-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #9b9b9b;
+  text-align: justify;
+}
+
+/* TYPOGRAPHY ENDS */
+/** GRID STARTS **/
+.thegrid {
+  margin: 0 auto;
+}
+
+.elements-distance, .movie-details, .movie-description, .movie-actors {
+  margin: 0px;
+}
+
+.mr-grid {
+  width: 100%;
+}
+
+.mr-grid:before, .mr-grid:after {
+  content: "";
+  display: table;
+}
+
+.mr-grid:after {
+  clear: both;
+}
+
+.mr-grid {
+  *zoom: 1;
+}
+
+.col1, .col2, .col3, .col3rest, .col4, .col4rest, .col5, .col5rest, .col6, .col6rest {
+  margin: 0% 0.5% 0.5% 0.5%;
+  padding: 1%;
+  float: left;
+  display: block;
+}
+
+/* Columns match, minus margin sum. E.G. margin-left+margin-right=1%, col2=50%-1% - added padding:1%*/
+.col1 {
+  width: 98%;
+}
+
+.col2 {
+  width: 47%;
+}
+
+.col3 {
+  width: 30.3333333333%;
+}
+
+.col4 {
+  width: 22%;
+}
+
+.col5 {
+  width: 17%;
+}
+
+.col6 {
+  width: 13.6666666667%;
+}
