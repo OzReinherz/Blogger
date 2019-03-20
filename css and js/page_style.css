@@ -403,13 +403,6 @@ position: relative;
     cursor: pointer;
 }
 
-.button23:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}
-
 
 /* Card and Popup - END */
 
