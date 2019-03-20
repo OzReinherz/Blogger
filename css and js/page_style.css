@@ -399,25 +399,8 @@ position: relative;
     padding: 20px;
     width: 200px;
     height: 50px;
-    text-align: center;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-}
-
-.button23:after {
-  content: "";
-  background: #90EE90;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px!important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
 }
 
 .button23:active:after {
