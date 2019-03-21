@@ -1,11 +1,21 @@
-$('.slide-nav').on('click', function(e) {
+$('.next').on('click', function(e) {
   e.preventDefault();
   // get current slide
   var current = $('.flex--active').data('slide'),
     // get button data-slide
     next = $(this).data('slide');
 
-  $('.slide-nav').removeClass('active');
+  $('.next').removeClass('active');
+  $(this).addClass('active');
+  
+  $('.previous').on('click', function(e) {
+  e.preventDefault();
+  // get current slide
+  var current = $('.flex--active').data('slide'),
+    // get button data-slide
+    next = $(this).data('slide');
+
+  $('.previous').removeClass('active');
   $(this).addClass('active');
   
 
