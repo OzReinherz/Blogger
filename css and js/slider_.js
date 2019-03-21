@@ -20,13 +20,13 @@ $('.slide-nav').on('click', function(e) {
   }
 });
 
-$("#slideshow > div:gt(0)").hide();
+$(".flex__container > div:gt(0)").hide();
 
 setInterval(function() { 
-  $('#slide-nav > div:first')
+  $('.flex__container > div:first')
     .fadeOut(1000)
     .next()
     .fadeIn(1000)
     .end()
-    .appendTo('#slide-nav');
+    .appendTo('.flex__container');
 },  3000);
