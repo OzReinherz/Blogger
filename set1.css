@@ -344,7 +344,6 @@ figure.effect-lily figcaption > div {
     left: 0;
     width: 100%;
     height: auto;
-    background: rgb(2, 11, 58);
 }
 
 figure.effect-lily h2,
@@ -376,6 +375,7 @@ figure.effect-lily:hover h2,
 figure.effect-lily:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	background: rgb(0, 7, 39);
 }
 
 figure.effect-lily:hover p {
