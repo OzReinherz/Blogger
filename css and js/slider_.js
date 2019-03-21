@@ -19,3 +19,13 @@ $('.slide-nav').on('click', function(e) {
     }, 800);
   }
 });
+
+$(function(){
+
+$('.slide-nav').anythingSlider({
+
+autoPlay: true
+
+});
+
+});
