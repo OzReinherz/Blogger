@@ -7,7 +7,6 @@ $('.next').on('click', function(e) {
 
   $('.next').removeClass('active');
   $(this).addClass('active');
-  
 
   if (current === next) {
     return false;
