@@ -20,12 +20,13 @@ $('.slide-nav').on('click', function(e) {
   }
 });
 
-$(function(){
+$("#slideshow > div:gt(0)").hide();
 
-$('.slide-nav').anythingSlider({
-
-autoPlay: true
-
-});
-
-});
+setInterval(function() { 
+  $('#slide-nav > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slide-nav');
+},  3000);
