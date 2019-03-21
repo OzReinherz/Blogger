@@ -7,6 +7,7 @@ $('.slide-nav').on('click', function(e) {
 
   $('.slide-nav').removeClass('active');
   $(this).addClass('active');
+  
 
   if (current === next) {
     return false;
@@ -19,14 +20,3 @@ $('.slide-nav').on('click', function(e) {
     }, 800);
   }
 });
-
-$(".flex__container > div:gt(0)").hide();
-
-setInterval(function() { 
-  $('.flex__container > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('.flex__container');
-},  3000);
