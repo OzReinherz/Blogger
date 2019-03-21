@@ -447,8 +447,8 @@ figure.effect-lily figcaption > div {
 
 figure.effect-lily h2,
 figure.effect-lily p {
-	-webkit-transform: translate3d(0,40px,0);
-	transform: translate3d(0,40px,0);
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
 }
 
 figure.effect-lily h2 {
