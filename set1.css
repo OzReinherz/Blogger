@@ -1405,6 +1405,65 @@ figure.effect-chico:hover p {
     }
 
 	
-/* Big Slider */
+/* Popup recrutamento */
 
+.overlay-8 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+   z-index: 999999999;
+}
+.overlay-8:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popuprec {
+  margin: 70px auto;
+  margin-left: 20%;
+  margin-top: 13%;
+  padding: 20px;
+  background: #020319;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+}
+
+
+.popuprec h2 {
+  margin-top: 0;
+  color: #fff;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popuprec .closerec {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popuprec .closerec:hover {
+  color: #06D85F;
+}
+.popuprec .content9 {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box23{
+    width: 70%;
+  }
+  .popuprec{
+    width: 70%;
+  }
+}
 
