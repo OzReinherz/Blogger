@@ -353,3 +353,10 @@ position: absolute;
     left: 85%;
     top: 80%;
 }
+
+/* tap hidden */
+
+div#disqus_thread {
+    visibility: hidden;
+    display: none;
+}
