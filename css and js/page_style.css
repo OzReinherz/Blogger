@@ -74,6 +74,7 @@ a {
     font-size: 34px;
     margin-bottom: 13px;
     position: relative;
+	font-weight: 900;
 }
     
     span {
@@ -416,7 +417,7 @@ position: relative;
 .title_episode {
     color: white;
     font-size: 18px;
-    font-family: cursive;
+    font-family: 'Acme', sans-serif;
     text-decoration-line: underline;
     float: left;
 }
