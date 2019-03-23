@@ -198,6 +198,7 @@ a[data-tooltip][data-placement="top"]::after {
 .background_color_front {
     width: 300px;
     background: rgba(2, 2, 21, 0.94);
+	position: absolute;
 }
 
 /* Card and Popup */
