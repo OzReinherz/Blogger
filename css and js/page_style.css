@@ -187,7 +187,6 @@ a[data-tooltip][data-placement="top"]::after {
 }
 .info-status_a {
     width: 300px;
-    height: 740px;
     float: left;
 	font-family: monospace;
     margin-top: -45px;
@@ -198,7 +197,6 @@ a[data-tooltip][data-placement="top"]::after {
 }
 .background_color_front {
     width: 300px;
-    height: 740px;
     background: rgba(2, 2, 21, 0.94);
 }
 
