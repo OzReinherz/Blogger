@@ -12,7 +12,6 @@
   background-size:cover;
   position:relative;
   cursor:pointer;
-  transition: all 0.4s ease-out;
   overflow:hidden;
   color:white;
   font-family:'Roboto';
