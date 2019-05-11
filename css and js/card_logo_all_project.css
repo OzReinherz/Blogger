@@ -36,6 +36,7 @@
   font-family: "Montserrat", sans-serif;
   color: #e7e7e7;
   margin: 0px;
+  width: fit-content;
 }
 
 .title_summary {
@@ -108,7 +109,7 @@
 
 /* Columns match, minus margin sum. E.G. margin-left+margin-right=1%, col2=50%-1% - added padding:1%*/
 .col1 {
-  width: 98%;
+  width: fit-content;
 }
 
 .col2 {
