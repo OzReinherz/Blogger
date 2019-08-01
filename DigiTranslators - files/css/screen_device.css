@@ -1,0 +1,30 @@
+/* Mobile Screen */
+
+@media (max-width: 320px) {
+
+.title-descrição {
+    position: relative;
+    top: 40%;
+    right: 4%;
+    width: 280px;
+    text-align: justify;
+    overflow: auto;
+    margin: auto 0;
+}
+
+img.avatar-left-acess {
+    width: 100%;
+    margin: auto 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200px;
+}
+
+.download-acess-logo {
+    background: url(./image/03.jpg) no-repeat;
+    background-size: cover;
+	height: -webkit-fill-available;
+}
+
+}
