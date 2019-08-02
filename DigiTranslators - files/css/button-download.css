@@ -86,30 +86,15 @@ h1.text-download {
 
 
 /* Style the Image Used to Trigger the fulldga */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+.myimg-opacity {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-#myImg2 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+.myimg-opacity:hover {
+	opacity: 0.7;
 }
-
-#myImg2:hover {opacity: 0.7;}
-
-
-#myImg3 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg3:hover {opacity: 0.7;}
 
 /* The fulldga (background) */
 .fulldga {
