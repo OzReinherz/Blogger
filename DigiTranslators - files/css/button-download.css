@@ -76,7 +76,7 @@ h1.text-download {
 
 .example_e:hover img.img-btt{
     width: 20%;
-    position: absolute;
+    position: relative;
 	display:block!important;
 	float:left;
 
