@@ -3,25 +3,6 @@
   src: url('https://raw.githubusercontent.com/OzReinherz/Blogger/master/fonts/Pixel%20Digivolve.otf');
 }
 
-.table-download {
-    width: 60vh;
-    height: 50vh;
-    position: absolute;
-    background-color: rgba(49, 93, 92, 0.73);
-    border-radius: 5vh;
-    text-align: -webkit-center;
-    top: 10vh;
-    left: 5vh;
-    right: 0;
-}
-
-img.image-top-table {
-    position: absolute;
-    width: 20%;
-    left: 0;
-    bottom: 45vh;
-}
-
 .example_e {
     position: relative;
     border: none;
