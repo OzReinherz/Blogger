@@ -39,16 +39,6 @@ h1.text-download {
 	    font-family: PixelDigivolve;
 }
 
-.text-form-dg {
-    text-align: justify;
-    font-family: fantasy;
-    border-radius: 10px;
-    width: fit-content;
-    position: relative;
-    text-transform: uppercase;
-    color: #fff;
-	cursor: default;
-}
 
 .example_e:hover h1.text-download {
     font-size: 20px;
@@ -147,9 +137,4 @@ h1.text-download {
   .fulldga-content {
     width: 100%;
   }
-}
-
-.container-screenshots {
-    position: absolute;
-    top: 67vh;
 }
